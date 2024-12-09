@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+</head>
+<body>
+  <header>
+    <img src="logo 1.png" class="logo">
+    <nav class="navbar">
+            
+            <a href="lab5.html">HOME</a>
+            <a href="" style="border-bottom: 2px solid #1d2e1e">PRODUCTS</a>
+            <a href="">CONTACT</a>
+            <a href="">ABOUT</a>
+        </nav>
+        <a href=""><button>LOG IN</button> </a>
+      </header>
+
+      <div class="thumbnail-gallery">
+        <div class="thumbnail"><a href="productlink.html"><img src="19.png" alt="thumbnail 1"> </a>
+            <div class="description">IPAD MINI 1ST GEN</div></div>
+        <div class="thumbnail"><a href="productlink1.html"><img src="2.png" alt="thumbnail 2"> </a>
+            <div class="description">IPAD MINI 2ND GEN</div></div>
+        <div class="thumbnail"><a href="productlink2.html"><img src="3.png" alt="thumbnail 3"> </a>
+            <div class="description">IPAD MINI 3RD GEN</div></div>
+            <div class="thumbnail"><a href="productlink3.html"><img src="4.png" alt="thumbnail 4"> </a>
+            <div class="description">IPAD MINI 4TH GEN</div></div>
+            <div class="thumbnail"><a href="productlink4.html"><img src="21.png" alt="thumbnail 5"> </a>
+            <div class="description">IPAD MINI 5TH GEN</div></div>
+    </div>
+    
+    <div class="thumbnail-gallery1">
+        <div class="thumbnail"><a href="productlink5.html"><img src="7.png" alt="thumbnail 6"> </a>
+            <div class="description">IPAD MINI 6TH GEN</div></div>
+        <div class="thumbnail"><a href="productlink6.html"><img src="8.png" alt="thumbnail 7"> </a>
+            <div class="description">IPAD MINI 7TH GEN</div></div>
+        <div class="thumbnail"><a href="productlink7.html"><img src="9.png" alt="thumbnail 8"> </a>
+            <div class="description">IPAD MINI 8TH GEN</div></div>
+            <div class="thumbnail"><a href="productlink8.html"><img src="10.png" alt="thumbnail 9"> </a>
+            <div class="description">IPAD MINI 9TH GEN</div></div>
+            <div class="thumbnail"><a href="productlink9.html"><img src="11.png" alt="thumbnail 10"> </a>
+            <div class="description">IPAD MINI 10TH GEN</div></div>
+    </div>
+    
+    
+            <div class="description">Clutch</div></div>
+         
+    </div><CENTER>
+    <a href="category.html"><button>BACK</button></a>
+</CENTER>
+    <style>
+.logo{
+    height: 50px;
+    width: 200px;
+    margin:10px auto 0px 20px;
+    position: relative;
+}
+.navbar{
+    overflow: hidden;
+
+}
+header{
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   z-index: 100;
+}
+
+button{
+    margin-top: 10px;
+    color: antiquewhite;
+    padding: 9px 25px;
+    background-color: #010e01;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+   margin-left: 10px;
+ 
+}
+button:hover{
+    color: antiquewhite;
+    padding: 5px 15px;
+    background-color: #25812d;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+   margin-left: 5px;
+ 
+}
+.navbar a{
+    position: relative;
+    color: rgb(11, 10, 10);
+    text-decoration: none;
+    padding:10px;
+    display:inline-block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1em;
+    z-index: 1;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar a:hover, .active{
+    border-bottom: 2px solid #1d2e1e;
+}
+
+.thumbnail-gallery{
+            display: flex;
+            margin-top: 100px;
+            flex-wrap: wrap;
+            margin-left: 10px;
+            gap: 50px;
+            margin-bottom: 25px;
+        }
+        .thumbnail-gallery1{
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+.thumbnail-gallery2{
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.thumbnail{
+            overflow: hidden;
+            border-radius: 8px;
+            transition:transform 0.3s;
+            width: 200px;
+            height: 25%;
+        }
+        .thumbnail img{
+            width: 100%;
+            height: auto;
+            display: block;
+        
+        }
+        .thumbnail:hover{
+            transform: scale(1.3)
+        }
+        .description{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0, 7);
+    color: white;
+    background-color: black;
+    text-align: center;
+        font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgina, "Self";
+        font-size: 10px;
+        padding: 1px;
+        opacity: 0;
+}
+.thumbnail:hover .description{
+    opacity: 1; 
+    padding: 5px;
+}
+    </style>
+
