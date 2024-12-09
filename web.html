@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="lab5.css">
+</head>
+<body>
+  <header>
+    <img src="logo 1.png" class="logo">
+    <nav class="navbar">
+            
+            <a href="" style="border-bottom: 2px solid #1d2e1e">HOME</a>
+            <a href="category.html">PRODUCTS</a>
+            <a href="">CONTACT</a>
+            <a href="">ABOUT</a>
+        </nav>
+      
+        </div>
+      </header>
+     
+     
+<main>
+   <div class="content">     
+          <div id="outerbox">
+            <div id="sliderbox">
+              <img src="intro 1.png">
+              <img src="intro 2.png">
+              <img src="intro 3.png">
+              <img src="intro 4.png">
+              <img src="intro 5.png">
+              <img src="intro 6.png">
+              <img src="intro7.png">
+              <img src="intro 8.png">
+              <img src="intro 9.png">
+    
+            </div>
+          </div>
+          <div class="info">
+            <h2>Your Trusted Gadgets Partner</h2>
+              <p> The iPad can be used for a variety of tasks, 
+                including browsing the web, reading, sending emails, viewing photos, watching videos, listening to music, playing games, and reading e-books. 
+                It can also be used for productivity, such as working from anywhere, storing and organizing files, and connecting with others.
+        </p>
+          </div>
+          </div>
+          
+     </main>
+        <footer>
+            <p>&copy;IPAD SERIES GREENHILLS</p>
+          </footer> 
+</body>
+<style>
+
+h2{
+    margin-bottom: 20px;
+   text-align: center;
+   font-weight: 100;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+   
+}
+
+.logo{
+    height: 50px;
+    width: 200px;
+    margin:10px auto 0px 20px;
+    position: relative;
+}
+.navbar{
+    overflow: hidden;
+
+}
+header{
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   z-index: 100;
+}
+
+button{
+    color: antiquewhite;
+   
+    background-color: #153c18;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+   margin-left: 10px;
+ 
+}
+button:hover{
+    color: antiquewhite;
+   
+    background-color: #25812d;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+   margin-left: 10px;
+ 
+}
+.navbar a{
+    position: relative;
+    color: rgb(11, 10, 10);
+    text-decoration: none;
+    padding:10px;
+    display:inline-block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1em;
+    z-index: 1;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar a:hover, .active{
+    border-bottom: 2px solid #1d2e1e;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+  
+}
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ }
+  .content{
+    width: 70%;
+    margin: 70px auto;
+   
+   
+  }
+  #outerbox {
+    width: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0px 0 20px 40px;
+    float: right;
+}
+
+#sliderbox {
+    position: relative;
+    display: flex;
+    width: 4500px;
+    height: 450px;
+    animation: slider 40s infinite;
+    
+}
+
+#sliderbox img {
+    width: 450px;
+    height: 450px;
+  
+    
+}
+
+
+@keyframes slider {
+
+    0%,
+    10% {
+        left: 0;
+    }
+
+    12.5%,
+    22.5% {
+        left: -450px;
+    }
+
+    25%,
+    35% {
+        left: -900px;
+    }
+
+    37.5%,
+    47.5% {
+        left: -1350px;
+    }
+
+    50%,
+    60% {
+        left: -1800px;
+    }
+
+    62.5%,
+    72.5% {
+        left: -2250px;
+    }
+
+    75%,
+    85% {
+        left: -2700px;
+    }
+
+    87.5%,
+    97.5% {
+        left: -3150px;
+    }
+
+    100% {
+        left: -3600px;
+    }
+}
+
+.info{
+    padding: 30px;
+    margin-top: 50px;
+   font-style: unset;
+}
+.info p{
+    display: flex;
+    
+    text-align: justify;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 17px;
+    border-radius: 10px;
+    margin: 40px 50px 0 0;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+}
+
+.info h2{
+    font-size: 35px;
+    margin: 0 0 10px 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+</style>
+</html>
